@@ -1,1 +1,4 @@
-#ignore these files
+#ignore these files during init_env.sh deployment
+templates/canary-deplyoment.yaml
+templates/canary-servcie.yaml
+
