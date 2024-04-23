@@ -5,6 +5,7 @@ minikube start
 
 echo -e 'Creating namespace... \n'
 kubectl create ns sre
+echo -e '\n'
 
 echo -e 'Deploying UpCommerce app... \n'
 helm install upcommerce ./upcommerce -n sre
