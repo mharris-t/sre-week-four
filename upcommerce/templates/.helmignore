@@ -1,4 +1,0 @@
-#ignore these files
-
-canary-deployment.yaml
-canary-service.yaml
